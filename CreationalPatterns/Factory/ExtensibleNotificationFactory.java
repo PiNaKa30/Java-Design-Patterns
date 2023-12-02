@@ -1,6 +1,6 @@
 package CreationalPatterns.Factory;
 
-public class ComplexNotificationFactory {
+public class ExtensibleNotificationFactory {
 
     public Notification getInstance(String type){
         return switch (type.toUpperCase()) {

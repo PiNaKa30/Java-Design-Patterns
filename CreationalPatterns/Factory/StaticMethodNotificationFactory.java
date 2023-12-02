@@ -1,6 +1,6 @@
 package CreationalPatterns.Factory;
 
-public class SimpleNotificationFactory {
+public class StaticMethodNotificationFactory {
 
     public static Notification getInstance(String type){
         return switch (type.toUpperCase()) {
