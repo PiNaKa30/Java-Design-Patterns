@@ -1,4 +1,8 @@
-package CreationalPatterns.Factory;
+package CreationalPatterns.Factory.factories;
+
+import CreationalPatterns.Factory.implementations.EmailNotification;
+import CreationalPatterns.Factory.implementations.SmsNotification;
+import CreationalPatterns.Factory.interfaces.Notification;
 
 public class ExtensibleNotificationFactory {
 

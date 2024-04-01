@@ -1,4 +1,4 @@
-package CreationalPatterns.Factory;
+package CreationalPatterns.Factory.interfaces;
 
 public interface Notification {
 

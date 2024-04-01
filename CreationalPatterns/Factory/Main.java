@@ -1,5 +1,9 @@
 package CreationalPatterns.Factory;
 
+import CreationalPatterns.Factory.factories.ExtensibleNotificationFactory;
+import CreationalPatterns.Factory.factories.StaticMethodNotificationFactory;
+import CreationalPatterns.Factory.interfaces.Notification;
+
 public class Main {
 
     public static void main(String[] args) {
